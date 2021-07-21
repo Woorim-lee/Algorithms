@@ -25,19 +25,26 @@
     * 선형리스트(Linear list) : 선처럼 연결 되어있는 리스트 (물리적 순서 == 논리적 순서)
 
     * 연결리스트(Linked list) : 각 노드가 데이터와 포인터(링크)를 가지고 한 줄로 연결되어 있는 방식, 노드의 포인터가 다음이나 이전의 노드와의 연결을 담당한다. (물리적 순서 != 논리적 순서)
+
       * head : 제일 앞에 있는 노드
+
       * pre : 현재 노드 위치의 바로 앞 노드
+
       * current : 현재 노드
+
       * tail : 마지막 노드
 
-    ![단일 연결 리스트](https://commons.wikimedia.org/wiki/File:Single_linked_list.png)
+        ![연결리스트](https://lh3.googleusercontent.com/proxy/p1d6X2mSIN5A03OeVG0L2Y8jcofkNiO0u8ay5J6ztqwiktIXYIoBv0kjCMmJkiXNIAqAabDTDP5d5ot_IJnUKiycSQ)
 
     * 스택(Stack) : Last in Frist out의 특성을 가지는 자료구조 (일종의 바닥이 막힌 상자)
+
       * push, 삽입
+
       * pop, 추출
+
       * top, 후입선출 특성 상 가장 먼저 빠져나갈 데이터의 위치
 
-    ![스택 구조](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevuna.tistory.com%2F22&psig=AOvVaw17fSp7b8dvuF5re1D9Cl-J&ust=1626948771011000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODnq8328_ECFQAAAAAdAAAAABAI)
+        ![스택](https://lh3.googleusercontent.com/proxy/P_OBJKPioIcIdC9CIJMbuhmd_-siSQypHjB8zqw1EdCstU-v8iUwyAJkI55FrTZ3drze5L245HUD5KDwbnsaiUmpDLO3JO7Mdjw6UEprVhnovhVf8C6pOA)
 
     * 일반 큐
     * 원형 큐
